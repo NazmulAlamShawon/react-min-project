@@ -17,4 +17,8 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
+  function render() { // eslint-disable-line no-unused-vars
+    // do stuff
+    var x; // still raises defined but never used
+}
 }
